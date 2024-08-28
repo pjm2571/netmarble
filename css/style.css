@@ -111,3 +111,26 @@ body {
     box-shadow: none;
     border: none;
 }
+
+/* title & description */
+
+.title {
+    float: left;
+    width: 100%;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.title::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: yellow;
+}
+
+.description {
+    width: 100%;
+    padding-left: 624px;
+    font-size: 18px;
+}
