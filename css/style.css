@@ -87,6 +87,23 @@ body {
     background-image: url(../images/banner04.jpg);
 }
 
+.banner-text{
+    color: white;
+}
+
+.banner-text h1 {
+    width: 510px;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
 /* bx-wrapper */
 .bx-wrapper {
     -moz-box-shadow: 0 0 5px #ccc;
