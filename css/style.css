@@ -221,7 +221,7 @@ body {
     margin-bottom: 20px;
 }
 
-.footer-inner p, .policy a, span {
+.footer-inner p, .policy a, .policy span {
     color: gray;
     font-size: 12px;
 }
