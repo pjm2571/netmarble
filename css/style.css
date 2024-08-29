@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
 /* font */
 body {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans Korean', 'Noto Sans KR', sans-serif;
 }
 
 /* header */
@@ -148,6 +150,7 @@ body {
 
 .card {
     width: 384px;
+    margin-bottom: 40px;
 }
 
 .card-img img{
@@ -168,4 +171,38 @@ body {
 
 .card-text p {
     font-size: 15px;
+}
+
+/* box-wrap */
+.box-wrap{
+    height: 338px;
+    position: relative;
+}
+
+.text-box{
+    width: 1114px;
+    height: 300px;
+    padding: 80px;
+    background-color: #ffd44a;
+}
+
+.text-box h1 {
+    width: 490px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-box span {
+    font-weight: 700;
+}
+
+.box-wrap img {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    background-image: url(../images/pic1.jpg);
+    width: 592px;
+    height: 360px;
+    z-index: 9999;
 }
